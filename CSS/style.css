@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,500&display=swap');
+
+:root{
+    --font-family: 'Raleway', sans-serif;
+    --bg-color: lightblue;
+
+}
+
+
+.container{
+    font-family: var(--font-family);
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.casillaMail{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.casillaMail header{
+    background-color: var(--bg-color);
+    padding: .5em 0.2em;
+    font-weight: 700;
+}
+
+.casillaMail div{
+    padding: 1em;
+}
+
+.casillaMail div input{
+    outline: none;
+    padding: 0.7em;
+    margin-top: .5em;
+    width: 30%;
+}
+
+.casillaMail div input:focus{
+    background-color: var(--bg-color);
+    border: none;
+}
+
+.aviso{
+    width: 70%;
+    margin-top: 1em;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.aviso h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aviso p{
+    margin-top: 1em;
+}
+
+#copiaEmail{
+    border-bottom: 1px dotted black;
+    width: 20%;
+}
