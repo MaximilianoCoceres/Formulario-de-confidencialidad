@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+    .casillaMail{
+        width: 70%;
+    }
+
+    .casillaMail div input{
+        width: 30%;
+    }
+
+    .aviso{
+        width: 70%;
+    }
+}
